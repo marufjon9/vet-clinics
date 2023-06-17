@@ -1510,3 +1510,242 @@ details[open] summary:after {
   background-repeat: no-repeat;
   margin-left: ;
 }
+
+/* ============ Services Page Styles ============ */
+
+.hero {
+  background-image: url(/images/parrot@1x.png);
+  background-size: 460px 435px;
+  background-position: calc(100% - 241px);
+  background-repeat: no-repeat;
+}
+.hero-textbox {
+  max-width: 559px;
+  padding-top: 118px;
+  padding-bottom: 139px;
+  padding-left: 112px;
+}
+.hero__title {
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 64px;
+  color: #333333;
+  margin-bottom: 21px;
+}
+.hero__subtext {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+}
+
+.card__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 29.95px;
+  row-gap: 32.7px;
+  padding-left: 0;
+  list-style: none;
+  margin-bottom: 168px;
+}
+.card__item {
+  background: #ffffff;
+  border-radius: 5px 5px 0px 0px;
+  padding: 58px 69px 45px 53px;
+  transition: all 0.5s ease;
+}
+
+.card__item:hover {
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card__item:hover > .btn-card {
+  background-color: #000;
+  color: #fff;
+}
+
+/* .btn-card:hover {
+  background-color: #000;
+  color: #fff;
+}
+.card__list .card__item:nth-child(even) .btn-card:hover {
+  background-color: #000;
+  color: #fff;
+} */
+
+.card__title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 34px;
+  color: #333333;
+  margin-bottom: 14px;
+}
+.card__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+  margin-bottom: 26px;
+}
+.btn {
+  font-weight: 450;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #ffbd54;
+  padding: 15px 30px;
+  border-radius: 3px;
+  display: inline-block;
+  transition: all 0.4s ease;
+}
+.card__list .card__item:nth-child(even) .btn-card {
+  background-color: #78c0de;
+}
+
+.card__item:nth-child(1) .card__title::before {
+  content: "";
+  background-image: url(/images/doctor-male-min.svg);
+  background-size: 54px 77px;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+  width: 55px;
+  height: 77px;
+  margin-bottom: 21px;
+}
+
+.card__item {
+  background-image: url(/images/pet-paw.svg);
+  background-size: 157px;
+  background-position: right top;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.card__item:nth-child(2) .card__title::before {
+  content: "";
+  background-image: url(/images/doctor-female-min.svg);
+  background-size: 61px 76px;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+  width: 61px;
+  height: 76px;
+  margin-bottom: 21px;
+}
+.card__item:nth-child(3) .card__title::before {
+  content: "";
+  background-image: url(/images/dropper-min.svg);
+  background-size: 72px 77px;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+  width: 72px;
+  height: 77px;
+  margin-bottom: 21px;
+}
+.card__item:nth-child(4) .card__title::before {
+  content: "";
+  background-image: url(/images/parasites-min.svg);
+  background-size: 75px 75px;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+  width: 75px;
+  height: 75px;
+  margin-bottom: 21px;
+}
+.card__item:nth-child(5) .card__title::before {
+  content: "";
+  background-image: url(/images/labs-min.svg);
+  background-size: 78px 78px;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+  width: 78px;
+  height: 78px;
+  margin-bottom: 21px;
+}
+.card__item:nth-child(6) .card__title::before {
+  content: "";
+  background-image: url(/images/doggy-eyes-min.svg);
+  background-size: 75px 75px;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+  width: 75px;
+  height: 75px;
+  margin-bottom: 21px;
+}
+.card__item:nth-child(7) .card__title::before {
+  content: "";
+  background-image: url(/images/xray-min.svg);
+  background-size: 77px 77px;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+  width: 77px;
+  height: 77px;
+  margin-bottom: 21px;
+}
+.card__item:nth-child(8) .card__title::before {
+  content: "";
+  background-image: url(/images/chips-min.svg);
+  background-size: 40px 77px;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+  width: 40px;
+  height: 77px;
+  margin-bottom: 21px;
+}
+.card__item:nth-child(9) .card__title::before {
+  content: "";
+  background-image: url(/images/pass-min.svg);
+  background-size: 86px 78px;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+  width: 86px;
+  height: 78px;
+  margin-bottom: 21px;
+}
+.card__item:nth-child(10) .card__title::before {
+  content: "";
+  background-image: url(/images/vacc-min.svg);
+  background-size: 68px 76px;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+  width: 68px;
+  height: 76px;
+  margin-bottom: 21px;
+}
+.card__item:nth-child(11) .card__title::before {
+  content: "";
+  background-image: url(/images/tooth-min.svg);
+  background-size: 78px 78px;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+  width: 78px;
+  height: 78px;
+  margin-bottom: 21px;
+}
+.card__item:nth-child(12) .card__title::before {
+  content: "";
+  background-image: url(/images/homecall-min.svg);
+  background-size: 77px 77px;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+  width: 77px;
+  height: 77px;
+  margin-bottom: 21px;
+}
+.card__item:nth-child(even):hover > .btn {
+  background-color: #000;
+  color: #fff;
+}
